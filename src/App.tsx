@@ -37,6 +37,9 @@ export default function App() {
             alt="Portada del libro El futuro del marketing (IA)" 
             className="w-48 md:w-56 h-auto flex-shrink-0 hover:scale-105 transition-transform duration-300 cursor-pointer"
             referrerPolicy="no-referrer"
+            loading="eager"
+            width="224"
+            height="320"
           />
         </header>
 
@@ -579,6 +582,8 @@ export default function App() {
               <p className="text-white/40 mt-4 mb-8">Nueve dólares con noventa y nueve centavos.</p>
               <a
                 href="https://fcofrancis.pay.clickbank.net/?cbitems=9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
                 className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95"
               >
                 [COMPRAR AHORA POR $9,99]
