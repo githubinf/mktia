@@ -25,7 +25,7 @@ export default function App() {
             </p>
             <div className="mt-10">
               <button
-                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                 className="inline-block bg-brand-accent text-white px-8 py-4 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 [SÍ, QUIERO EL LIBRO POR SOLO $9,99]
@@ -400,7 +400,7 @@ export default function App() {
             </div>
             <div className="text-center py-12">
               <button
-                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                 className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 [SÍ, QUIERO EMPEZAR A LEER AHORA POR $9,99]
@@ -534,7 +534,7 @@ export default function App() {
             </p>
             <div className="text-center pt-8">
               <button
-                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                 className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 [SÍ, QUIERO EL LIBRO SIN RIESGO POR $9,99]
@@ -573,12 +573,11 @@ export default function App() {
               Es una guía práctica, directa y accesible. Algo que puedas leer a tu ritmo, en tu casa, en el transporte público, en una pausa del trabajo. Algo que puedas consultar cada vez que tengas una duda. Algo que te acompañe en este proceso de aprendizaje continuo.
             </p>
 
-            <div className="text-center py-12">
+            <div id="main-payment-button" className="text-center py-12">
               <p className="text-sm uppercase tracking-widest text-white/40 mb-2">Inversión única</p>
               <p className="text-7xl font-bold text-brand-accent">$9,99</p>
               <p className="text-white/40 mt-4 mb-8">Nueve dólares con noventa y nueve centavos.</p>
               <a
-                id="main-payment-button"
                 href="https://fcofrancis.pay.clickbank.net/?cbitems=9"
                 className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95"
               >
@@ -771,7 +770,7 @@ export default function App() {
 
             <div className="py-12">
               <button
-                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                 className="inline-block bg-brand-accent text-white px-12 py-6 rounded-full text-2xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 [SÍ, QUIERO ENTENDER EL FUTURO DEL MARKETING POR SOLO $9,99]
