@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply font-serif;
+}
+
+.font-sans {
+  @apply font-sans;
+}
+
+/* Estilos para el progreso de lectura */
+#progress-bar {
+  transition: width 0.1s ease-out;
+}
