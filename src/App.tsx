@@ -23,6 +23,14 @@ export default function App() {
             <p className="text-xl md:text-2xl italic text-white/70 font-light">
               El poder disruptivo de la inteligencia artificial y el impacto transformador en el marketing digital
             </p>
+            <div className="mt-10">
+              <button
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-brand-accent text-white px-8 py-4 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                [SÍ, QUIERO EL LIBRO POR SOLO $9,99]
+              </button>
+            </div>
           </div>
           <img 
             src="https://i.ibb.co/tpybRqhX/marketing-IA-futuro-ebook.png" 
@@ -169,33 +177,33 @@ export default function App() {
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">El secreto detrás de la personalización</h3>
-                <p className="text-base text-[#5a5a5a]">Netflix, Amazon, Spotify... no te recomiendan productos por arte de magia. Hay una lógica detrás. Y esa lógica puedes aplicarla, a tu escala, a tu propio negocio.</p>
+                <h3 className="font-bold text-xl text-white">El secreto detrás de la personalización</h3>
+                <p className="text-base text-white/70">Netflix, Amazon, Spotify... no te recomiendan productos por arte de magia. Hay una lógica detrás. Y esa lógica puedes aplicarla, a tu escala, a tu propio negocio.</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">Automatización sin perder el control</h3>
-                <p className="text-base text-[#5a5a5a]">La automatización mal entendida puede convertir tu comunicación en algo frío y mecánico. Pero bien aplicada, te libera de tareas repetitivas para que puedas dedicarte a lo que realmente importa: pensar, crear y conectar.</p>
+                <h3 className="font-bold text-xl text-white">Automatización sin perder el control</h3>
+                <p className="text-base text-white/70">La automatización mal entendida puede convertir tu comunicación en algo frío y mecánico. Pero bien aplicada, te libera de tareas repetitivas para que puedas dedicarte a lo que realmente importa: pensar, crear y conectar.</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">La verdad sobre los asistentes virtuales</h3>
-                <p className="text-base text-[#5a5a5a]">No son un extra de marketing. Están convirtiéndose en el primer punto de contacto con tus clientes. Y si no los entiendes, estarás perdiendo oportunidades cada día.</p>
+                <h3 className="font-bold text-xl text-white">La verdad sobre los asistentes virtuales</h3>
+                <p className="text-base text-white/70">No son un extra de marketing. Están convirtiéndose en el primer punto de contacto con tus clientes. Y si no los entiendes, estarás perdiendo oportunidades cada día.</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">Análisis predictivo para anticiparte</h3>
-                <p className="text-base text-[#5a5a5a]">Imagina poder saber lo que tus clientes van a necesitar antes incluso de que ellos lo sepan. No es ciencia ficción. Es análisis predictivo. Y está a tu alcance.</p>
+                <h3 className="font-bold text-xl text-white">Análisis predictivo para anticiparte</h3>
+                <p className="text-base text-white/70">Imagina poder saber lo que tus clientes van a necesitar antes incluso de que ellos lo sepan. No es ciencia ficción. Es análisis predictivo. Y está a tu alcance.</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">Experiencia del cliente mejorada</h3>
-                <p className="text-base text-[#5a5a5a]">Desde la atención personalizada hasta la resolución proactiva de problemas. La inteligencia artificial, bien usada, puede convertir a tus clientes en defensores de tu marca.</p>
+                <h3 className="font-bold text-xl text-white">Experiencia del cliente mejorada</h3>
+                <p className="text-base text-white/70">Desde la atención personalizada hasta la resolución proactiva de problemas. La inteligencia artificial, bien usada, puede convertir a tus clientes en defensores de tu marca.</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="font-bold text-xl text-[#2d2d2d]">Aspectos éticos fundamentales</h3>
-                <p className="text-base text-[#5a5a5a]">Porque usar la inteligencia artificial sin entender sus riesgos (sesgos, privacidad, discriminación) no solo es peligroso, es irresponsable.</p>
+                <h3 className="font-bold text-xl text-white">Aspectos éticos fundamentales</h3>
+                <p className="text-base text-white/70">Porque usar la inteligencia artificial sin entender sus riesgos (sesgos, privacidad, discriminación) no solo es peligroso, es irresponsable.</p>
               </div>
             </div>
 
@@ -260,26 +268,26 @@ export default function App() {
                     <span>Eres un profesional del marketing que quiere actualizar sus conocimientos.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#d4a373]">✓</span>
+                    <span className="text-brand-tech">✓</span>
                     <span>Eres un emprendedor que necesita adaptar sus estrategias.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#d4a373]">✓</span>
+                    <span className="text-brand-tech">✓</span>
                     <span>Eres un creador de contenido que busca optimizar su trabajo.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#d4a373]">✓</span>
+                    <span className="text-brand-tech">✓</span>
                     <span>Eres un estudiante que quiere prepararse para el mercado laboral.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#d4a373]">✓</span>
+                    <span className="text-brand-tech">✓</span>
                     <span>Eres una persona curiosa que quiere entender la realidad actual.</span>
                   </li>
                 </ul>
               </div>
 
               <div className="space-y-4 opacity-60">
-                <h3 className="font-bold text-[#2d2d2d] uppercase tracking-wider text-sm">Este libro NO es para ti si:</h3>
+                <h3 className="font-bold text-white uppercase tracking-wider text-sm">Este libro NO es para ti si:</h3>
                 <ul className="space-y-3 text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-red-400">✕</span>
@@ -298,10 +306,10 @@ export default function App() {
             </div>
           </section>
 
-          <hr className="border-brand-primary my-16" />
+          <hr className="border-white/5 my-20" />
 
           <section className="space-y-12">
-            <h2 className="text-3xl font-bold text-white mb-8">
+            <h2 className="text-3xl font-bold text-white mb-12">
               Los 14 capítulos que cambiarán tu forma de entender el marketing
             </h2>
 
@@ -390,12 +398,20 @@ export default function App() {
                 <p className="text-white/70">Este capítulo final es tu plan de acción para los próximos noventa días. Te daré pasos concretos para evaluar tu situación actual, identificar las oportunidades de mejora más urgentes y comenzar tu transformación digital de forma segura y efectiva. El futuro no se espera, se construye hoy.</p>
               </div>
             </div>
+            <div className="text-center py-12">
+              <button
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                [SÍ, QUIERO EMPEZAR A LEER AHORA POR $9,99]
+              </button>
+            </div>
           </section>
 
-          <hr className="border-brand-primary my-16" />
+          <hr className="border-white/5 my-20" />
 
           <section className="space-y-12">
-            <h2 className="text-3xl font-bold text-white mb-8">
+            <h2 className="text-3xl font-bold text-white mb-12">
               Los 5 mitos peligrosos sobre la inteligencia artificial en el marketing
             </h2>
 
@@ -516,6 +532,14 @@ export default function App() {
             <p className="text-sm text-white/50">
               Esta garantía no es un truco de mercadotecnia. Es mi compromiso personal contigo. Prefiero que no tengas el libro a que lo tengas y no te sirva. Mi objetivo no es venderte un papel. Es ayudarte a entender algo que puede marcar la diferencia en tu futuro profesional o en tu negocio.
             </p>
+            <div className="text-center pt-8">
+              <button
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                [SÍ, QUIERO EL LIBRO SIN RIESGO POR $9,99]
+              </button>
+            </div>
           </section>
 
           <hr className="border-white/5 my-20" />
@@ -552,7 +576,14 @@ export default function App() {
             <div className="text-center py-12">
               <p className="text-sm uppercase tracking-widest text-white/40 mb-2">Inversión única</p>
               <p className="text-7xl font-bold text-brand-accent">$9,99</p>
-              <p className="text-white/40 mt-4">Nueve dólares con noventa y nueve centavos.</p>
+              <p className="text-white/40 mt-4 mb-8">Nueve dólares con noventa y nueve centavos.</p>
+              <a
+                id="main-payment-button"
+                href="https://fcofrancis.pay.clickbank.net/?cbitems=9"
+                className="inline-block bg-brand-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95"
+              >
+                [COMPRAR AHORA POR $9,99]
+              </a>
             </div>
 
             <p>
@@ -739,12 +770,12 @@ export default function App() {
             </div>
 
             <div className="py-12">
-              <a
-                href="#"
-                className="inline-block bg-brand-accent text-white px-12 py-6 rounded-full text-2xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95"
+              <button
+                onClick={() => document.getElementById('main-payment-button')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-brand-accent text-white px-12 py-6 rounded-full text-2xl font-bold shadow-xl hover:bg-brand-accent-secondary transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 [SÍ, QUIERO ENTENDER EL FUTURO DEL MARKETING POR SOLO $9,99]
-              </a>
+              </button>
               <p className="mt-6 text-sm text-white/60">
                 Pago seguro y acceso inmediato. Garantía de 30 días.
               </p>
