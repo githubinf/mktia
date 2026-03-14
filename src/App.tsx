@@ -3,9 +3,24 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const progressBar = document.getElementById('progress-bar');
+      if (progressBar) {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        progressBar.style.width = scrolled + '%';
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-brand-bg text-brand-white font-serif selection:bg-brand-accent/30">
       {/* Barra de progreso de lectura */}
@@ -40,6 +55,8 @@ export default function App() {
             loading="eager"
             width="224"
             height="320"
+            decoding="async"
+            style={{ fetchPriority: 'high' } as any}
           />
         </header>
 
