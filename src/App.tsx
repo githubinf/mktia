@@ -50,11 +50,9 @@ export default function App() {
           <img 
             src="https://i.ibb.co/tpybRqhX/marketing-IA-futuro-ebook.png" 
             alt="Portada del libro El futuro del marketing (IA)" 
-            className="w-48 md:w-56 h-auto flex-shrink-0 hover:scale-105 transition-transform duration-300 cursor-pointer"
+            className="w-48 md:w-56 h-auto flex-shrink-0 hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg shadow-2xl"
             referrerPolicy="no-referrer"
             loading="eager"
-            width="224"
-            height="320"
             decoding="async"
             style={{ fetchPriority: 'high' } as any}
           />
