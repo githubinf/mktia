@@ -54,7 +54,7 @@ export default function App() {
             referrerPolicy="no-referrer"
             loading="eager"
             decoding="async"
-            style={{ fetchPriority: 'high' } as any}
+            fetchPriority="high"
           />
         </header>
 
